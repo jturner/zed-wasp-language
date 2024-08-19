@@ -1,0 +1,11 @@
+id = "wasp"
+name = "Wasp"
+description = "Wasp lang support."
+version = "0.0.1"
+schema_version = 1
+authors = ["James Turner <james@calminferno.net>"]
+repository = "https://github.com/jturner/zed-wasp"
+
+[language_servers.wasp-language-server]
+name = "Wasp Langugage Server"
+language = "Wasp"

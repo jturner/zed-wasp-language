@@ -1,0 +1,10 @@
+name = "Wasp"
+path_suffixes = ["wasp"]
+line_comments = ["// "]
+block_comment = ["/*", "*/"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = true },
+]
+tab_size = 2

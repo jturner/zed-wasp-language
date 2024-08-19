@@ -1,0 +1,13 @@
+[package]
+name = "zed_wasp"
+version = "0.0.1"
+edition = "2021"
+publish = false
+license = "ISC"
+
+[lib]
+path = "src/wasp.rs"
+crate-type = ["cdylib"]
+
+[dependencies]
+zed_extension_api = "0.0.6"
