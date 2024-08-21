@@ -4,7 +4,7 @@ description = "Wasp lang support."
 version = "0.0.1"
 schema_version = 1
 authors = ["James Turner <james@calminferno.net>"]
-repository = "https://github.com/jturner/zed-wasp"
+repository = "https://github.com/jturner/zed-wasp-language"
 
 [language_servers.wasp-language-server]
 name = "Wasp Langugage Server"
